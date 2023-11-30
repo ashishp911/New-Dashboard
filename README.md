@@ -72,3 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 # News dashboard using newsapi (ReactJs, material UI)
 
 All documentation--
+###
+1. Created Navbar, got image from inshorts app.
+2. Added CSS to the navbar 
+
+### 
+1. Creating the hambergere icon from material UI
