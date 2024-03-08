@@ -15,7 +15,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import catagories from '../data/categories';
 
-export default function SwipeableTemporaryDrawer() {
+export default function SwipeableTemporaryDrawer({setCategory}) {
   const [state, setState] = React.useState({
     left: false,
   });
@@ -58,7 +58,11 @@ export default function SwipeableTemporaryDrawer() {
       <Divider />
       <List>
         {catagories.map((text, index) => (
-          <ListItem key={text} disablePadding>
+          <ListItem 
+          key={text} 
+          style={{height: 40, borderRadius: 3}} 
+          disablePadding 
+          onClick={()=>setCategory(text)}>
             <ListItemButton>
               {/* <ListItemIcon>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
@@ -73,7 +77,6 @@ export default function SwipeableTemporaryDrawer() {
 
   return (
     <div>
-      
         <React.Fragment key={"left"}>
           <Button onClick={toggleDrawer("left", true)}>
             <MenuIcon/>
