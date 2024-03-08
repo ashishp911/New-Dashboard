@@ -1,6 +1,3 @@
-News dashboard using newsapi (ReactJs, material UI)
-=======
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,5 +67,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 3808ca7 (Initialize project using Create React App)
+
+
+# News dashboard using newsapi (ReactJs, material UI)
+
+All documentation--
+###
+1. Created Navbar, got image from inshorts app.
+2. Added CSS to the navbar 
+
+### 
+1. Creating the hambergere icon from material UI
